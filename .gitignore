@@ -1,8 +1,8 @@
 # Data
-./zippedData
+/unzipped_data
 
 # cover photo
-./images
+/images
 
 # junk
-./ipyn_checkpoints
+/ipyn_checkpoints
