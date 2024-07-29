@@ -1,7 +1,7 @@
 
 # What movies are performing best at the box office?
 
-<center><img src="./images/Header.jpg" 
+<center><img src="./images/Header.png" 
     Width="1000">
 
 ## 1. Overview
