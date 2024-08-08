@@ -44,4 +44,18 @@ Different metrics may be used to determine the success or profitability of a mov
 The following can be listed as the limitations of the following study:
 - In the data cleaning stage, we did our best to keep the highest percentage of data possible while gathering information on movie genres, average ratings, production budget, and domestic/worldwide gross. As explained earlier, retreiving this information involved computationally demanding steps. It may be possible to optimize the search and match algorithms (for example using fuzzy matching techniques) to both improve performance and make our dataset even bigger using data from Box Office Mojo, for example. With the current techniques used in this work, that would have been time prohibitive.
 - Our analysis of the production budget showed that the trends can indeed be different for low budget, medium budget and high budget movies. Since production budget is a factor stakeholders have control over, it would be beneficial to do a more in-depth analysis on the key factors contributing to the success of movies in each category. This will help stakeholders focus on those key driving factors depending on the budget at hand.
-- The current work does not present a model that can describe return on investment as a function of factors such as genre, average rating, etc. It would be beneficial to build statistically significant linear regression models that could better explain the evolution of ROI with these factors. This would require treating the categorical variables (e.g. genre) and is beyond the scope of the current work.    
+- The current work does not present a model that can describe return on investment as a function of factors such as genre, average rating, etc. It would be beneficial to build statistically significant linear regression models that could better explain the evolution of ROI with these factors. This would require treating the categorical variables (e.g. genre) and is beyond the scope of the current work.   
+
+## Interested to know more?
+- See the full analysis in this [Jupyter notebook](https://github.com/setare92-ha/project_eda_movie_profit_analysis).
+- You can find a presentation on the main findings [here]().
+
+## How to navigate this repository
+│   .gitignore <br />
+│   main.ipynb <br />
+│   README.md <br />
+│   presentation.pdf <br />
+│
+├───figures <br />
+│───zippedData <br />
+├───images <br />
