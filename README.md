@@ -47,7 +47,7 @@ The following can be listed as the limitations of the following study:
 - The current work does not present a model that can describe return on investment as a function of factors such as genre, average rating, etc. It would be beneficial to build statistically significant linear regression models that could better explain the evolution of ROI with these factors. This would require treating the categorical variables (e.g. genre) and is beyond the scope of the current work.   
 
 ## Interested to know more?
-- See the full analysis in this [Jupyter notebook](https://github.com/setare92-ha/project_eda_movie_profit_analysis).
+- See the full analysis in this [Jupyter notebook](https://github.com/setare92-ha/project_eda_movie_profit_analysis/blob/main/main.ipynb).
 - You can find a presentation on the main findings [here]().
 
 ## How to navigate this repository
