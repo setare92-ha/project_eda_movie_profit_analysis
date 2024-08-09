@@ -48,7 +48,7 @@ The following can be listed as the limitations of the following study:
 
 ## Interested to know more?
 - See the full analysis in this [Jupyter notebook](https://github.com/setare92-ha/project_eda_movie_profit_analysis/blob/main/main.ipynb).
-- You can find a presentation on the main findings [here]().
+- You can find a presentation on the main findings [here](https://github.com/setare92-ha/project_eda_movie_profit_analysis/blob/main/presentation.pdf).
 
 ## How to navigate this repository
 │   .gitignore <br />
