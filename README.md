@@ -7,13 +7,17 @@
 ## 1. Overview
 A company has decided to create a new movie studio. They would like to explore what types of films are currently doing the best at the box office. 
 
+
 ## 2. Business Understanding
-### 1.1. Business Objective 
+### 2.1. Business Objective 
 This project aims to determine which movies are currently doing the best at the box office. Several sources of data are used (see [here](https://github.com/setare92-ha/project_eda_movie_profit_analysis/tree/main/zippedData)). These sources include data from [Box Office Mojo](https://www.boxofficemojo.com/), [IMDB](https://www.imdb.com/?ref_=nv_home), [Rotton Tomatoes](https://www.rottentomatoes.com/), [The Movie DataBase](https://www.themoviedb.org/?language=en-US)(TMDB) and [TheNumbers](https://www.the-numbers.com/). The study and its findings will serve stakeholders trying to start a new venture in the movie industry, such as creating a movie studio, or streaming platforms trying to determine movies that would be profitable additions to their collection. 
 
-### 1.2. Background Information
+### 2.2. Background Information
 Different metrics may be used to determine the success or profitability of a movie. We may come to different conclusions based on the choice of metric (see [this article](https://www.hollywoodreporter.com/movies/movie-news/what-is-profitable-movie-ever-1269879/) for reference). Here, we choose Return On Investment (ROI) as an appropriate metric to use. ROI may be defined as $$ROI=\frac{Revenue-Expense}{Expense}\times 100$$ We focus on this fiscal metric to determine the most profitable movies. Later, we will focus on the different aspects of a movie (genre, movie ratings, director, etc.) that may correlate to the movie's success in general.  
 ## 3. Data Understanding and Analysis
+We use data from *The Numbers* for information on movie budgets, domestic and worldwide gross. This information is used to calculate ROI. We cross-reference this dataset with datasets from *IMDB* and *TMDB* to recover information about movie genres and average ratings. Several manipulation techniques are used to recover missing data and retain as much data as possible (the interested reader can refer to [the Jupyter notebook](https://github.com/setare92-ha/project_eda_movie_profit_analysis/blob/main/main.ipynb) for more detail).
+
+The data is then grouped and aggregated to analyze the effects of **genre**, **release month** and **average rating** (of interest to stakeholders who may want to stream an already-existing movie on an online platform). Since **production budget** is a key factor that stakeholders have control over, some insights regarding different brackets for production budget will also be shared.  
 
 ## 4. Recommendations
 1. Movies yielding the highest profit belong to the *horror*, *mystery* and *thriller* genres. For medium budget movies (budget between 7 to 51 million dollars), the documentary and musical genre also seem prominent in terms of revenue generation. 
