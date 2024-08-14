@@ -21,14 +21,14 @@ The data is then grouped and aggregated to analyze the effects of **genre**, **r
 
 ## 4. Recommendations
 1. Movies yielding the highest profit belong to the *horror*, *mystery* and *thriller* genres. For medium budget movies (budget between 7 to 51 million dollars), the documentary and musical genre also seem prominent in terms of revenue generation. 
-<p align="left"><img src="./figures/ROI_genre.png" 
+<p align="left"><img src="./figures/roi_genre.png" 
     Width="1000">
 
 **Figure 1.** Domestic and worldwide Return On Investment (ROI) of movies based on Genres. The highest profitable movies belong to the *mystery*, *horror* and *thriller* genres. 
 
 2. It is recommended that the movie is released in July. If not in summer, it is recommended that the movie is released in the month of January since the results show high profits for movie releases in these months.
 
-<p align="center"><img src="./figures/ROI_release_month.png" 
+<p align="center"><img src="./figures/roi_release_month.png" 
     Width="1000">
 
 **Figure 2.** Domestic and worldwide Return On Investment (ROI) of movies based on the month of year the movie is released. Highly profitable movies were released in *July*, followed by *January*.
@@ -37,7 +37,7 @@ The data is then grouped and aggregated to analyze the effects of **genre**, **r
 
 4. Highly acclaimed/rated movies do not necessarily correlate with high profits. It is recommended that stakeholders stick with average-rated movies.
 
-<p align="left"><img src="./figures/ROI_average_rating.png" 
+<p align="left"><img src="./figures/roi_average_rating.png" 
     Width="1000">
 
 **Figure 3.** Domestic and worldwide Return On Investment (ROI) of movies based on audience average rating aggregated from IMDB and TMDB datasets. Highly profitable movies are not necessarily highly acclaimed/rated. 
